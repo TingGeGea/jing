@@ -1,0 +1,136 @@
+/*container2*/
+.header_bg header nav ul li:nth-child(2){background: #5c5c5c;}  
+.container2{max-width: 1000px; margin: 0 auto;}
+.container2 aside ul li{
+	text-align: center;
+	height: 77px;
+	line-height: 77px;
+	border-bottom: 4px solid #FFFFFF;
+	cursor: pointer;
+	transition: all 0.3s ease-in;
+} 
+.container2 aside ul li:first-child{
+	background: url(../../images/general_01.jpg) no-repeat 20px center;	
+}
+.container2 aside ul li:first-child:hover{
+	background: url(../../images/general_02.jpg) no-repeat 20px center;	
+	border-bottom: 4px solid #fa9634;
+}
+.container2 aside ul li:last-child{
+	background: url(../../images/general_04.jpg) no-repeat 20px center;
+	border-bottom: 4px solid #fa9634;
+} 
+.container2 aside ul li a{
+	display: block;
+	font-family: "微软雅黑";
+	font-size: 2.2em;
+	color: #25200c;
+}
+.container2 aside ul li img{display: block; width: 100%;}
+.container2 section h4{
+	font-family: "微软雅黑";
+	height: 40px;
+	line-height: 40px;
+	font-size: 1.8em;
+	color: #fa9634;
+	font-weight: bold;
+}
+.container2 section p{
+	line-height: 30px;
+	font-family: "微软雅黑";
+	font-size: 1.6em;
+	color: #040200;
+}
+@media only screen and (min-width: 1000px) {
+	.container2{
+	padding-top: 40px;
+	width: 1000px;
+    }
+    .container2 aside{
+	float: left;
+	width: 250px;
+	padding-right: 14px;
+	margin-right: 50px;
+	border-right: 1px solid #bababa;
+    }
+    .container2 aside ul li{
+	width: 230px;
+	padding-left: 20px;	
+    }
+    .container2 section{
+	float: left;
+	padding-right: 10px;
+	padding-bottom: 140px;
+	width: 675px;
+    }
+}
+@media screen and (min-width: 720px) and (max-width: 1000px) {
+	.container2{
+	width: 100%;
+	padding-top: 40px;
+    }
+    .container2 aside{
+    	width: 24%;
+    	float: left;
+    	margin-right: 5%;
+    	padding-right: 1.4%;
+    	padding-left: 1%;
+    	border-right: 1px solid #bababa;
+    }
+    .container2 aside ul li{
+        padding-left: 10%;
+    }
+    .container2 section{
+    	width: 64.5%;
+    	float: left;
+    	padding-right:2%;
+    	padding-bottom: 140px;
+    }
+}
+@media screen and (max-width: 720px) {
+	.container2{
+	width: 100%;
+	padding-top: 20px;
+    }
+    .container2 aside{
+    	width: 80%;
+    	margin: 0 auto;
+    	padding-left: 10%;
+    	padding-right: 10%;
+    	clear: both;
+    	padding-bottom: 20px;
+    }
+    .container2 aside ul li{
+    	float: left;
+    	width: 30%;
+    	padding-left: 20%;
+    }
+    .container2 section{
+    	width: 92%;
+    	clear: both;
+    	padding-left: 4%;
+    	padding-right: 4%;
+    	padding-bottom: 140px;
+    } 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		

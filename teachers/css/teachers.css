@@ -1,0 +1,128 @@
+/*container2*/
+.header_bg header nav ul li:nth-child(6){background: #5c5c5c;}  
+.container2{max-width: 1000px; margin: 0 auto;}
+.container2 h2{
+	line-height: 60px;
+	font-family: "微软雅黑";
+	font-weight: bold;
+	font-size: 2.8em;
+	color: #120000;	
+	text-align: center;
+}
+.container2>span{
+	display: block;
+	line-height: 46px;
+	font-family: "微软雅黑";
+	font-size: 2.4em;
+	color: #838383;
+	text-align: center;
+	margin-bottom: 50px;
+}
+.container2 ul{
+    margin: 0 auto;
+    }
+.container2 ul li img{
+	display: block;
+	width: 100%;
+	padding-bottom: 17px;
+    }
+.container2 ul li div p{
+    line-height: 24px;
+    font-family: "微软雅黑";
+    font-size: 1.4em;
+    color: #858784;
+}
+.container2 ul li div p span{
+    line-height: 24px;
+    font-family: "微软雅黑";
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #858784;
+}    
+@media screen and (min-width: 1000px) {
+	.container2{
+	width: 1000px;
+	padding-top: 40px;
+	padding-bottom: 177px;
+    }  
+    .container2 ul{
+	width: 1000px;
+	margin-bottom: 68px;
+    }
+    .container2 ul li{
+	float: left;
+	width: 220px;
+	margin-right: 40px;
+    }
+    .container2 ul li:last-child{
+	margin-right: 0;
+    }
+}
+@media screen and (min-width: 720px) and (max-width: 1000px) {
+	.container2{
+	width: 100%;
+	padding-top: 40px;
+	padding-bottom: 177px;
+    }  
+    .container2 ul{
+    width: 100%;
+    padding-left: 2%;
+    padding-right: 2%;
+    }
+    .container2 ul li{
+    float: left;
+    width: 21%;
+    margin-right: 4%;	
+    margin-bottom: 50px;
+    }
+    .container2 ul li:last-child{
+    margin-right: 0%;	
+    }
+}
+@media screen and (max-width: 720px){
+	.container2{
+	width: 100%;
+	padding-top: 20px;
+    }  
+     .container2 ul{
+    width: 100%;
+    padding-left: 2%;
+    padding-right: 2%;
+    }
+    .container2 ul li{
+    float: left;
+    width: 45%;
+	margin-right: 5%;
+    margin-bottom: 50px;
+    }
+    .container2 ul li div{
+    	height: 340px;
+    }
+    .container2 ul li:nth-child(2){
+    margin-right: 0%;	
+    }
+    .container2 ul li:nth-child(4){
+    margin-right: 0%;	
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		

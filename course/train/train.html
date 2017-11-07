@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<!--让IE用最新版本渲染-->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<!--视窗   宽度 = 屏幕可见宽度     缩放倍数=1（不缩放） 允许最大倍数      禁止用户缩放-->
+		<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"/>
+		<link rel="stylesheet" type="text/css" href="../../common/css/base.css"/>
+		<link rel="stylesheet" type="text/css" href="../../common/css/common.css"/>
+		<link rel="stylesheet" type="text/css" href="css/train.css"/>
+		<script src="../js/jquery-1.7.2.min.js" type="text/javascript" charset="utf-8"></script>
+		<scrip3t src="../js/jquery.index.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+	<div class="container">
+		<div class="header_bg">
+			<header>
+				<div class="logo">
+					<img src="../../common/images/logo.jpg"/>
+				</div>
+				<p>你的屏幕从此无界</p>
+				<nav>
+					<ul class="clearfix">
+						<li><a href="../../home.html">首页</a></li>
+						<li><a href="../../general/general.html">学院概况</a></li>
+						<li><a href="../course.html">课程设置</a></li>
+						<li><a href="../../campus/campus.html">校园风采</a></li>
+						<li><a href="../../works/works.html">学员作品</a></li>
+						<li><a href="../../teachers/teachers.html">师资力量</a></li>
+						<li><a href="../../service/service.html">学院服务</a></li>
+						<li><a href="../../contact/contact.html">联系我们</a></li>
+					</ul>
+				</nav>
+			</header>
+	        <ul class="nav clearfix">
+				<li><a href="../../home.html">首页</a></li>
+				<li><a href="../../general/general.html">学院概况</a></li>
+				<li><a href="../course.html">课程设置</a></li>
+				<li><a href="../../campus/campus.html">校园风采</a></li>
+				<li><a href="../../works/works.html">学员作品</a></li>
+				<li><a href="../../teachers/teachers.html">师资力量</a></li>
+				<li><a href="../../service/service.html">学院服务</a></li>
+				<li><a href="../../contact/contact.html">联系我们</a></li>
+				<li id="close"></li>
+			</ul>
+			<script type="text/javascript">
+			$(document).ready(function  () {
+				$("nav").click(function  () {
+					$(this).toggleClass("hover");
+					$(".nav").toggleClass("hover");
+				});
+				$("#close").click(function  () {
+					$("nav").toggleClass("hover");
+					$(".nav").toggleClass("hover");
+				})
+			});
+		    </script>		    
+		</div>		
+	</div>
+	<div class="container2 clearfix">
+		<aside>
+			<ul class="clearfix">
+				<li><a href="../course.html">环境<span>艺术</span>设计</a></li>
+				<li><a href="../animation/animation.html">数字影视<span>动画</span></a></li>
+				<li><a href="../data/data.html">大数据<span>云计算</span></a></li>
+				<li><a href="../php/php.html">PHP<span>网站</span>开发</a></li>
+				<li><a href="../h5/h5.html">H5<span>响应式</span>开发</a></li>
+				<li><a href="../Android/Android.html">Android<span>开发</span></a></li>
+				<li><a href="../media/media.html">传媒<span>艺术设计</span></a></li>
+				<li><a href="train.html">大学生培训</a></li>
+				<li><a href="../university/university.html">大学直通车</a></li>
+			</ul>
+		</aside>
+		<section>
+			<h2>培养目标</h2>
+			<p>目前，众多企业缺的不是理论型人材和管理型人才，而是既有理论知识、又具实践操作能力 的专业技术人才。在近几年的大学生就业中，严重存在着“管理人才难找，工程师、设计师更 难求”的问题，大学毕业生难于就业的根本原因就是没有一技之长。中关村学院景秀校企合作中 心开办的大学生岗前实训班，其宗旨就是要帮助更多的大学毕业生解决就业难、高薪就业更难的 问题，帮助他们顺利实现对口高薪就业。可以说，中关村学院景秀校企合作中心大学生岗前实训 班是大学毕业生实现对口高薪就业的一个极好的平台！</p>
+			<p><img src="images/train_01.jpg"/></p>
+			<h2>就业回报</h2>
+			<p>大专或本科毕业/同类专业国家正规院校（入学需提供国家承认的、学信网可查到的学历证复印件， 1寸、2寸兰底彩照各8张，身份证复印件2张以供存档（无身份证者带户主及本人户口复印件2份， 带照片户籍证明1份）。</p>
+			<h2>核心课程</h2>
+			<p>在校时间：6-8个月，（上课模式9、9、6，即：早9点上课、晚9点自习结束、每周6天课程， 无寒暑假期）费用缴纳规定：按所选专业交费，如专科升本需另外缴纳学历费用，（4100元左右+书费）</p>
+			<p><img src="images/train_02.jpg"/></p>
+			<h2>就业岗位</h2>
+			<p>学生入学后学校与其签订费用告知书、入学时未交齐费用者只签订《安全协议》，入校一周内全 年学费缴纳后，与学生（家长）签订《就业协议》一式两份。毕业颁发国家承认技能证书，并负 责安排就业</p>
+		</section>
+	</div>
+	<div class="footer_bg">
+			<footer class="clearfix">
+				<section>
+					<p>咨询电话：010—58447031</p>
+					<p style="margin-left: 60px;">010—58447030</p>
+				</section>
+				<section>
+					<p>咨询邮箱：bjjxkj@126.com</p>
+					<p>Mobile:15321575023</p>
+				</section>
+				<section>
+					<p>咨询QQ：58447031</p>
+					<p style="margin-left: 56px;">58447030</p>
+					<p style="margin-left: 56px;">58447030</p>
+				</section>
+				<section>
+				    <p>学院网址：http://www.zgcxueyuan.com</p>
+					<p>学院地址：中关村学院二分院（北京市海淀区中关村环保科技园温阳路170号）</p>
+				</section>
+			</footer>
+	</div>	
+	</body>
+</html>

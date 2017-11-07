@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<!--
+		[if it IE 9]>
+			<script src="html5.js"></script>
+		<![endif]
+		-->
+		<script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="../common/css/base.css"/>
+		<link rel="stylesheet" type="text/css" href="../common/css/common.css"/>
+		
+		<link rel="stylesheet" type="text/css" href="css/yundong.css"/>
+		<link rel="stylesheet" type="text/css" href="css/jquery.bxslider.css"/>
+		
+		<script type="text/javascript" src="js/jquery.js"></script>
+	    <script type="text/javascript" src="js/common.js"></script>
+	    <script type="text/javascript" src="js/jquery.bxslider.js"></script>
+		<script type="text/javascript" src="js/tools.js"></script>
+		
+	</head>
+	<body>
+		<div class="container">
+		<div class="header_bg">
+			<header>
+				<div class="logo">
+					<img src="../common/images/logo.jpg"/>
+				</div>     
+				<p>你的屏幕从此无界</p>
+				<nav>
+					<ul class="clearfix">
+						<li><a href="../home.html">首页</a></li>
+						<li><a href="../general/general.html">学院概况</a></li>
+						<li><a href="../course/course.html">课程设置</a></li>
+						<li><a href="../campus/campus.html">校园风采</a></li>
+						<li><a href="../works/works.html">学员作品</a></li>
+						<li><a href="../teachers/teachers.html">师资力量</a></li>
+						<li><a href="../service/service.html">学院服务</a></li>
+						<li><a href="../contact/contact.html">联系我们</a></li>
+					</ul>
+				</nav>
+			</header>
+	        <ul class="nav clearfix">
+				<li><a href="../home.html">首页</a></li>
+				<li><a href="../general/general.html">学院概况</a></li>
+				<li><a href="../course/course.html">课程设置</a></li>
+				<li><a href="../campus/campus.html">校园风采</a></li>
+				<li><a href="../works/works.html">学员作品</a></li>
+				<li><a href="../teachers/teachers.html">师资力量</a></li>
+				<li><a href="../service/service.html">学院服务</a></li>
+				<li><a href="../contact/contact.html">联系我们</a></li>
+				<li id="close"></li>
+			</ul>
+			<script type="text/javascript">
+			$(document).ready(function  () {
+				$("nav").click(function  () {
+					$(this).toggleClass("hover");
+					$(".nav").toggleClass("hover");
+				});
+				$("#close").click(function  () {
+					$("nav").toggleClass("hover");
+					$(".nav").toggleClass("hover");
+				})
+			});
+		    </script>		    
+		</div>		
+	</div>
+	<div class="slider7">
+					<div class="slider"><a href="#"><img src="img/banner1.jpg"></a></div>
+					<div class="slider"><a href="#"><img src="img/banner2.jpg"></a></div>
+					<div class="slider"><a href="#"><img src="img/banner3.jpg"></a></div>
+					<div class="slider"><a href="#"><img src="img/banner4.jpg"></a></div>
+					<div class="slider"><a href="#"><img src="img/banner5.jpg"></a></div>
+				</div>
+			<script type="text/javascript">
+						$(document).ready(function(){
+							$('.slider7').bxSlider({
+								slideWidth: 1440,
+								infiniteLoop: false,
+								hideControlOnEnd: true,
+								slideMargin: 10
+							});
+						});
+				</script>
+				<!--slider7结束-->
+		<div class="concent">
+		   <div class="container2 clearfix">
+		   	    <aside>
+		   	   	 <ul class="clearfix">
+		   	   	 	<li><a href="campus.html" class="first">新生军训</a></li>
+		   	   	 	<li><a href="shixi.html" class="two">环艺实习基地</a></li>
+		   	   	 	<li><a href="yundong.html" class="three">趣味运动会</a></li>
+		   	   	 	<li><a href="shixun.html" class="four">大学生实训</a></li>
+		   	   	 	<li><a href="biaoyan.html" class="five">观看话剧表演</a></li>
+		   	   	 	<li><a href="wanhui.html" class="six">圣诞晚会</a></li>
+		   	   	 </ul>
+		   	   </aside>
+		   	   <section>
+		   	   	 <div class="div">
+					 <div class="c">
+						<div class="c1_l">
+							<div id="c1_slide" class="c1_slide">
+								<ul>
+									<li class="cloned">
+										<a href="">
+											<img src="img/qwydh_1.jpg" alt="" />
+										</a>
+									</li>
+									<li>
+										<a href="">
+											<img src="img/qwydh_2.jpg" alt="" />
+										</a>
+									</li>
+									<li>
+										<a href="">
+											<img src="img/qwydh_3.jpg" alt="" />
+										</a>
+									</li>
+									<li>
+										<a href="">
+											<img src="img/qwydh_4.jpg" alt="" />
+										</a>
+									</li>
+									<li>
+										<a href="">
+											<img src="img/qwydh_5.jpg" alt="" />
+										</a>
+									</li>
+								</ul>
+							</div>
+							<div class="c1_paging">
+								<ul id="c1_paging">
+									
+									<li class="active">
+										<i></i>
+										<img src="img/qwydh_22.jpg" alt="" />
+										<b></b>
+									</li>
+									<li>
+										<i></i>
+										<img src="img/qwydh_33.jpg" alt="" />
+										<b></b>
+									</li>
+									<li>
+										<i></i>
+										<img src="img/qwydh_44.jpg" alt="" />
+										<b></b>
+									</li>
+									<li>
+										<i></i>
+										<img src="img/qwydh_55.jpg" alt="" />
+										<b></b>
+									</li>
+									<li>
+										<i></i>
+										<img src="img/qwydh_11.jpg" alt="" />
+										<b></b>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				 </div>
+				
+				 <p style="margin-top: 33px;">趣味运动会是最受本校学生欢迎的一项团体活动，我们通过举办趣味运动会可以将学生在平时工作和生活中的压力释放掉，以最好的心态回归带到学习中，这样可以将个人的自信心增强，在不知不觉中将团队的凝聚力聚集起来。趣味运动会的所有项目内容都是非常的新颖，对于刚接触的趣味运动会的人来说是非常的有吸引力的，而且趣味运动会的参与性和趣味性让学生们对它是情有独钟。趣味运动会项目的操作难度不高，大多数学生都会乐于参与，将心驻入，为活动曾添色彩；</p>
+		   	   </section>
+		   	   <script type="text/javascript">	
+					$("#c1_slide").scrollable({circular:true}).autoscroll({autoplay: true,interval: 3000 }).navigator("#c1_paging");
+				</script>
+		   </div>
+		</div>
+		<footer>
+			<div class="container3">
+				<ul class="clearfix">
+					<li>
+						<span>咨询电话：010-58447031</span>
+						<span style="padding-left: 67px;">010-58447030</span>
+					</li>          
+					<li>
+						<span>咨询邮箱：bjjxkj@126.com
+                        </span>
+						<span>
+							Mobile&nbsp;&nbsp;：15321575023
+						</span>
+					</li>
+					<li>
+						<span>咨询QQ：1718693915</span>
+						<span style="padding-left:63px;">1019959019</span>
+						<span style="padding-left:63px;">138259017</span>
+					</li>
+					<li>
+						<span>学院网址：http://www.zgcxueyuan.com</span>
+						<span>学院地址：中关村学院二分院(北京市</span>
+						<span>海淀区中关村环保科技园温阳路170号)</span>
+					</li>
+				</ul>
+			</div>
+		</footer>
+	</body>
+</html>
+
+

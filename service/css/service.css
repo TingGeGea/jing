@@ -1,0 +1,204 @@
+/*container2*/
+.header_bg header nav ul li:nth-child(7){background: #5c5c5c;}  
+.container2{max-width: 1000px; margin: 0 auto; padding-bottom: 177px;}
+.container2 aside ul li{
+	text-align: center;
+	line-height: 77px;
+	border-bottom: 4px solid #FFFFFF;
+	cursor: pointer;
+	transition: all 0.3s ease-in;
+} 
+.container2 aside ul li a{
+	display: block;
+	font-family: "微软雅黑";
+	font-size: 2.2em;
+	color: #25200c;
+}
+.container2 section h4{
+	line-height: 42px;
+	font-family: "微软雅黑";
+	font-weight: bold;
+	font-size: 1.8em;
+	color: #ff882c;	
+}
+.container2 section p span{
+	line-height: 42px;
+	font-weight: bold;
+	font-size: 1.3em;
+	color: #ff882c;	
+}
+.container2 section p{
+	line-height: 38px;
+	font-family: "微软雅黑";
+	font-size: 1.4em;
+	color: #261923;
+}
+@media screen and (min-width: 1000px) {
+	.container2{
+	width: 1000px;
+	padding-top: 40px;
+    }
+	.container2 aside{
+	float: left;
+	width: 250px;
+	padding-right: 14px;
+	margin-right: 50px;
+	border-right: 1px solid #bababa;
+    }
+    .container2 aside ul li{
+	width: 210px;
+	padding-left: 40px;	
+    }  
+    .container2 section{
+	float: left;
+	width: 685px;	
+    }
+    .container2 aside ul li:first-child{
+	background: url(../images/service_02.jpg) no-repeat 15px center;	
+	border-bottom: 4px solid #fa9634;
+}
+.container2 aside ul li:nth-child(2){
+	background: url(../images/service_03.jpg) no-repeat 15px center;	
+}         
+.container2 aside ul li:nth-child(3){
+	background: url(../images/service_05.jpg) no-repeat 15px center;	
+} 
+.container2 aside ul li:nth-child(4){
+	background: url(../images/service_07.jpg) no-repeat 15px center;	
+}    
+.container2 aside ul li:nth-child(2):hover{
+	background: url(../images/service_04.jpg) no-repeat 15px center;
+	border-bottom: 4px solid #fa9634;	
+}         
+.container2 aside ul li:nth-child(3):hover{
+	background: url(../images/service_06.jpg) no-repeat 15px center;
+	border-bottom: 4px solid #fa9634;	
+} 
+.container2 aside ul li:nth-child(4):hover{
+	background: url(../images/service_08.jpg) no-repeat 15px center;
+	border-bottom: 4px solid #fa9634;	
+}  
+}
+@media screen and (min-width: 720px) and (max-width: 1000px) {
+	.container2{
+	width: 100%;
+	padding-top: 40px;
+    }  
+    .container2 aside{
+    	width: 24%;
+    	float: left;
+    	margin-right: 5%;
+    	padding-right: 1.4%;
+    	padding-left: 1%;
+    	border-right: 1px solid #bababa;
+    	margin-bottom: 20px;
+    }
+    .container2 aside ul li{
+        padding-left: 20%;
+    }
+    .container2 section{
+    	width: 66.5%;
+    	float: left;
+    	padding-right: 1%;
+    	padding-bottom: 140px;
+    }
+    .container2 aside ul li:first-child{
+	background: url(../images/service_02.jpg) no-repeat 15px center;	
+	border-bottom: 4px solid #fa9634;
+}
+.container2 aside ul li:nth-child(2){
+	background: url(../images/service_03.jpg) no-repeat 15px center;	
+}         
+.container2 aside ul li:nth-child(3){
+	background: url(../images/service_05.jpg) no-repeat 15px center;	
+} 
+.container2 aside ul li:nth-child(4){
+	background: url(../images/service_07.jpg) no-repeat 15px center;	
+}    
+.container2 aside ul li:nth-child(2):hover{
+	background: url(../images/service_04.jpg) no-repeat 15px center;
+	border-bottom: 4px solid #fa9634;	
+}         
+.container2 aside ul li:nth-child(3):hover{
+	background: url(../images/service_06.jpg) no-repeat 15px center;
+	border-bottom: 4px solid #fa9634;	
+} 
+.container2 aside ul li:nth-child(4):hover{
+	background: url(../images/service_08.jpg) no-repeat 15px center;
+	border-bottom: 4px solid #fa9634;	
+}  
+}
+@media screen and (max-width: 720px) {
+	.container2{
+	width: 100%;
+	padding-top: 20px;
+    }  
+    .container2 aside{
+    	clear: both;
+    	width: 80%;
+    	margin: 0 auto;
+    	padding-left: 10%;
+    	padding-right: 10%;
+    }
+    .container2 aside ul li{
+    	float: left;
+    	width: 50%;
+    }
+    .container2 aside ul li a{
+    	 line-height: 50px;
+    	 text-align: center;
+	    margin-top: 50px;
+    }
+    .container2 section{
+    	clear: both;
+    	padding-top: 20px;
+    	width: 92%;
+    	padding-left: 4%;
+    	padding-right: 4%;
+    }
+    .container2 aside ul li:first-child{
+	background: url(../images/service_02.jpg) no-repeat center 10px;	
+	border-bottom: 4px solid #fa9634;
+}
+.container2 aside ul li:nth-child(2){
+	background: url(../images/service_03.jpg) no-repeat center 10px;	
+}         
+.container2 aside ul li:nth-child(3){
+	background: url(../images/service_05.jpg) no-repeat center 10px;	
+} 
+.container2 aside ul li:nth-child(4){
+	background: url(../images/service_07.jpg) no-repeat center 10px;	
+}    
+.container2 aside ul li:nth-child(2):hover{
+	background: url(../images/service_04.jpg) no-repeat center 10px;
+	border-bottom: 4px solid #fa9634;	
+}         
+.container2 aside ul li:nth-child(3):hover{
+	background: url(../images/service_06.jpg) no-repeat center 10px;
+	border-bottom: 4px solid #fa9634;	
+} 
+.container2 aside ul li:nth-child(4):hover{
+	background: url(../images/service_08.jpg) no-repeat center 10px;
+	border-bottom: 4px solid #fa9634;	
+}  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		

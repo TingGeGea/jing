@@ -1,0 +1,98 @@
+/*container2*/
+.header_bg header nav ul li:nth-child(8){background: #5c5c5c;}  
+.container2{max-width: 1000px; margin: 0 auto; padding-bottom: 177px;}
+.container2 section h2{
+	line-height: 42px;
+	font-family: "微软雅黑";
+	font-weight: bold;
+	font-size: 1.8em;
+	color: #ff882c;	
+	text-align: center;
+}
+.container2 section p.fw{
+	line-height: 50px;
+	font-weight: bold;
+	font-size: 2.4em;
+	margin-bottom: 30px;
+}
+.container2 section p{
+	line-height: 38px;
+	font-family: "微软雅黑";
+	font-size: 1.4em;
+	color: #261923;
+	text-align: center;
+}
+@media screen and (min-width: 1000px) {
+	.container2{
+	width: 1000px;
+	padding-top: 40px;
+    }
+    .container2 section{
+	float: left;
+	width: 1000px;	
+    }
+    .container2 section p img{
+	display: inline-block;
+	width: 669px;
+	height: 400px;
+	padding-top: 39px;
+    }
+}
+@media screen and (min-width: 720px) and (max-width: 1000px) {
+	.container2{
+	width: 100%;
+	padding-top: 40px;
+    }  
+    .container2 section{
+    	width: 100%;
+    	float: left;
+    	padding-bottom: 140px;
+    }
+    .container2 section p img{
+	display: inline-block;
+	width: 66.99%;
+	padding-left: 4%;
+    padding-right: 4%;
+	padding-top: 39px;
+    }
+}
+@media screen and (max-width: 720px) {
+	.container2{
+	width: 100%;
+	padding-top: 20px;
+    }  
+    .container2 section{
+    	clear: both;
+    	padding-top: 20px;
+    	width: 92%;
+    	padding-left: 4%;
+    	padding-right: 4%;
+    }
+    .container2 section p img{
+	display: inline-block;
+	width: 66.99%;
+	padding-left: 4%;
+    padding-right: 4%;
+	padding-top: 39px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		

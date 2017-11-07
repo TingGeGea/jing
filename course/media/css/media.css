@@ -1,0 +1,437 @@
+/*container2*/
+.header_bg header nav ul li:nth-child(3){background: #5c5c5c;}  
+.container2{max-width: 1000px; margin: 0 auto; padding-bottom: 177px;}
+.container2 aside ul li{
+	text-align: center;
+	line-height: 77px;
+	border-bottom: 4px solid #FFFFFF;
+	cursor: pointer;
+	transition: all 0.3s ease-in;
+} 
+.container2 section h2{
+	height: 33px;
+	line-height: 33px;
+	font-family: "微软雅黑";
+	font-weight: bold;
+	font-size: 18px;
+	color: #ff882c;	
+}
+.container2 section p{
+	line-height: 29px;
+	font-family: "微软雅黑";
+	font-size: 16px;
+	color: #050000;	
+}
+.container2 section p:nth-of-type(2) img{
+	display: block;
+	width: 100%;
+	padding-top: 21px;
+	padding-bottom: 29px;
+}
+.container2 section p:nth-of-type(5) img{
+	display: block;
+	width: 100%;
+	padding-top: 21px;
+	padding-bottom: 29px;
+}
+@media screen and (min-width: 1000px) {
+	.container2{
+	width: 1000px;
+	padding-top: 40px;
+    }
+	.container2 aside{
+	float: left;
+	width: 250px;
+	padding-right: 14px;
+	margin-right: 50px;
+	border-right: 1px solid #bababa;
+    }
+    .container2 aside ul li a{
+	display: block;
+	font-family: "微软雅黑";
+	font-size: 2.2em;
+	color: #25200c;
+    }
+    .container2 aside ul li{
+	padding-left: 70px;	
+    }  
+    .container2 aside ul li:first-child{
+	background: url(../../images/course-1_01.jpg) no-repeat 15px center;
+}
+   .container2 aside ul li:nth-child(2){
+	background: url(../../images/course-1_03.jpg) no-repeat 15px center;
+}
+.container2 aside ul li:nth-child(3){
+	background: url(../../images/course-1_05.jpg) no-repeat 15px center;
+}
+.container2 aside ul li:nth-child(4){
+	background: url(../../images/course-1_07.jpg) no-repeat 15px center;
+}
+.container2 aside ul li:nth-child(5){
+	background: url(../../images/course-1_09.jpg) no-repeat 15px center;
+}
+.container2 aside ul li:nth-child(6){
+	background: url(../../images/course-1_11.jpg) no-repeat 15px center;
+}
+.container2 aside ul li:nth-child(7){
+	background: url(../../images/course-1_14.jpg) no-repeat 15px center;
+	border-bottom: 4px solid #fa9634;
+}
+.container2 aside ul li:nth-child(8){
+	background: url(../../images/course-1_15.jpg) no-repeat 15px center;
+}
+.container2 aside ul li:nth-child(9){
+	background: url(../../images/course-1_17.jpg) no-repeat 15px center;
+}
+.container2 aside ul li:first-child:hover{
+	background: url(../../images/course-1_02.jpg) no-repeat 15px center;
+	border-bottom: 4px solid #fa9634;
+}
+.container2 aside ul li:nth-child(2):hover{
+	background: url(../../images/course-1_04.jpg) no-repeat 15px center;
+	border-bottom: 4px solid #fa9634;
+}
+.container2 aside ul li:nth-child(3):hover{
+	background: url(../../images/course-1_06.jpg) no-repeat 15px center;
+	border-bottom: 4px solid #fa9634;
+}
+.container2 aside ul li:nth-child(4):hover{
+	background: url(../../images/course-1_08.jpg) no-repeat 15px center;
+	border-bottom: 4px solid #fa9634;
+}
+.container2 aside ul li:nth-child(5):hover{
+	background: url(../../images/course-1_10.jpg) no-repeat 15px center;
+	border-bottom: 4px solid #fa9634;
+}
+.container2 aside ul li:nth-child(6):hover{
+	background: url(../../images/course-1_12.jpg) no-repeat 15px center;
+	border-bottom: 4px solid #fa9634;
+}
+.container2 aside ul li:nth-child(7):hover{
+	background: url(../../images/course-1_14.jpg) no-repeat 15px center;
+	border-bottom: 4px solid #fa9634;
+}
+.container2 aside ul li:nth-child(8):hover{
+	background: url(../../images/course-1_16.jpg) no-repeat 15px center;
+	border-bottom: 4px solid #fa9634;
+}
+.container2 aside ul li:nth-child(9):hover{
+	background: url(../../images/course-1_18.jpg) no-repeat 15px center;
+	border-bottom: 4px solid #fa9634;
+    }            
+    .container2 section{
+	float: left;
+	width: 685px;	
+    }
+}
+@media screen and (min-width: 720px) and (max-width: 1000px) {
+	.container2{
+	width: 100%;
+	padding-top: 40px;
+    }
+	.container2 aside{
+	float: left;
+	width: 28%;
+	padding-right: 1.4%;                                                                                                                                                                                                                                                                                                                               
+	padding-left: 1%;
+	margin-right: 5%;
+	border-right: 1px solid #bababa;
+    }
+    .container2 aside ul li a{
+	display: block;
+	font-family: "微软雅黑";
+	font-size: 2.2em;
+	color: #25200c;
+    }
+    .container2 aside ul li{
+    padding-left: 30%;
+    padding-right: 2.8%;
+    }  
+     .container2 aside ul li:first-child{
+	background: url(../../images/course-1_01.jpg) no-repeat 15px center;
+}
+   .container2 aside ul li:nth-child(2){
+	background: url(../../images/course-1_03.jpg) no-repeat 15px center;
+}
+.container2 aside ul li:nth-child(3){
+	background: url(../../images/course-1_05.jpg) no-repeat 15px center;
+}
+.container2 aside ul li:nth-child(4){
+	background: url(../../images/course-1_07.jpg) no-repeat 15px center;
+}
+.container2 aside ul li:nth-child(5){
+	background: url(../../images/course-1_09.jpg) no-repeat 15px center;
+}
+.container2 aside ul li:nth-child(6){
+	background: url(../../images/course-1_11.jpg) no-repeat 15px center;
+}
+.container2 aside ul li:nth-child(7){
+	background: url(../../images/course-1_14.jpg) no-repeat 15px center;
+	border-bottom: 4px solid #fa9634;
+}
+.container2 aside ul li:nth-child(8){
+	background: url(../../images/course-1_15.jpg) no-repeat 15px center;
+}
+.container2 aside ul li:nth-child(9){
+	background: url(../../images/course-1_17.jpg) no-repeat 15px center;
+}
+.container2 aside ul li:first-child:hover{
+	background: url(../../images/course-1_02.jpg) no-repeat 15px center;
+	border-bottom: 4px solid #fa9634;
+}
+.container2 aside ul li:nth-child(2):hover{
+	background: url(../../images/course-1_04.jpg) no-repeat 15px center;
+	border-bottom: 4px solid #fa9634;
+}
+.container2 aside ul li:nth-child(3):hover{
+	background: url(../../images/course-1_06.jpg) no-repeat 15px center;
+	border-bottom: 4px solid #fa9634;
+}
+.container2 aside ul li:nth-child(4):hover{
+	background: url(../../images/course-1_08.jpg) no-repeat 15px center;
+	border-bottom: 4px solid #fa9634;
+}
+.container2 aside ul li:nth-child(5):hover{
+	background: url(../../images/course-1_10.jpg) no-repeat 15px center;
+	border-bottom: 4px solid #fa9634;
+}
+.container2 aside ul li:nth-child(6):hover{
+	background: url(../../images/course-1_12.jpg) no-repeat 15px center;
+	border-bottom: 4px solid #fa9634;
+}
+.container2 aside ul li:nth-child(7):hover{
+	background: url(../../images/course-1_14.jpg) no-repeat 15px center;
+	border-bottom: 4px solid #fa9634;
+}
+.container2 aside ul li:nth-child(8):hover{
+	background: url(../../images/course-1_16.jpg) no-repeat 15px center;
+	border-bottom: 4px solid #fa9634;
+}
+.container2 aside ul li:nth-child(9):hover{
+	background: url(../../images/course-1_18.jpg) no-repeat 15px center;
+	border-bottom: 4px solid #fa9634;
+    }            
+    .container2 section{
+	float: left;
+	width: 63.6%;	
+    }
+}
+@media screen and (min-width: 480px) and (max-width: 720px) {
+	.container2{
+	width: 100%;
+	padding-top: 20px;
+    }  
+    .container2 aside{
+    	clear: both;
+    	width: 96%;
+    	margin: 0 auto;
+    	padding-left: 2%;
+    	padding-right: 2%;
+    }
+    .container2 aside ul li{
+    	float: left;
+    	width: 33.3%;
+    	text-align: center;
+    	padding-top: 50px;
+    }
+    .container2 aside ul li a{
+	display: block;
+	line-height: 50px;
+	font-family: "微软雅黑";
+	font-size: 2em;
+	color: #25200c;
+    }
+    .container2 section{
+    	clear: both;
+    	padding-top: 20px;
+    	width: 92%;
+    	padding-left: 4%;
+    	padding-right: 4%;
+    }
+      .container2 aside ul li:first-child{
+	background: url(../../images/course-1_01.jpg) no-repeat center 10px;
+}
+   .container2 aside ul li:nth-child(2){
+	background: url(../../images/course-1_03.jpg) no-repeat center 10px;
+}
+.container2 aside ul li:nth-child(3){
+	background: url(../../images/course-1_05.jpg) no-repeat center 10px;
+}
+.container2 aside ul li:nth-child(4){
+	background: url(../../images/course-1_07.jpg) no-repeat center 10px;
+}
+.container2 aside ul li:nth-child(5){
+	background: url(../../images/course-1_09.jpg) no-repeat center 10px;
+}
+.container2 aside ul li:nth-child(6){
+	background: url(../../images/course-1_11.jpg) no-repeat center 10px;
+}
+.container2 aside ul li:nth-child(7){
+	background: url(../../images/course-1_14.jpg) no-repeat center 10px;
+	border-bottom: 4px solid #fa9634;
+}
+.container2 aside ul li:nth-child(8){
+	background: url(../../images/course-1_15.jpg) no-repeat center 10px;
+}
+.container2 aside ul li:nth-child(9){
+	background: url(../../images/course-1_17.jpg) no-repeat center 10px;
+}
+.container2 aside ul li:first-child:hover{
+	background: url(../../images/course-1_02.jpg) no-repeat center 10px;
+	border-bottom: 4px solid #fa9634;
+}
+.container2 aside ul li:nth-child(2):hover{
+	background: url(../../images/course-1_04.jpg) no-repeat center 10px;
+	border-bottom: 4px solid #fa9634;
+}
+.container2 aside ul li:nth-child(3):hover{
+	background: url(../../images/course-1_06.jpg) no-repeat center 10px;
+	border-bottom: 4px solid #fa9634;
+}
+.container2 aside ul li:nth-child(4):hover{
+	background: url(../../images/course-1_08.jpg) no-repeat center 10px;
+	border-bottom: 4px solid #fa9634;
+}
+.container2 aside ul li:nth-child(5):hover{
+	background: url(../../images/course-1_10.jpg) no-repeat center 10px;
+	border-bottom: 4px solid #fa9634;
+}
+.container2 aside ul li:nth-child(6):hover{
+	background: url(../../images/course-1_12.jpg) no-repeat center 10px;
+	border-bottom: 4px solid #fa9634;
+}
+.container2 aside ul li:nth-child(7):hover{
+	background: url(../../images/course-1_14.jpg) no-repeat center 10px;
+	border-bottom: 4px solid #fa9634;
+}
+.container2 aside ul li:nth-child(8):hover{
+	background: url(../../images/course-1_16.jpg) no-repeat center 10px;
+	border-bottom: 4px solid #fa9634;
+}
+.container2 aside ul li:nth-child(9):hover{
+	background: url(../../images/course-1_18.jpg) no-repeat center 10px;
+	border-bottom: 4px solid #fa9634;
+}
+}
+@media screen and (max-width: 480px){
+	.container2{
+	width: 100%;
+	padding-top: 20px;
+    }  
+    .container2 aside{
+    	clear: both;
+    	width: 96%;
+    	margin: 0 auto;
+    	padding-left: 2%;
+    	padding-right: 2%;
+    }
+    .container2 aside ul li{
+    	float: left;
+    	width: 33.3%;
+    	text-align: center;
+    	padding-top: 50px;
+    }
+    .container2 aside ul li a{
+	display: block;
+	line-height: 50px;
+	font-family: "微软雅黑";
+	font-size: 1.8em;
+	color: #25200c;
+    }
+    .container2 aside ul li a span{
+	display: none;
+    }
+    .container2 section{
+    	clear: both;
+    	padding-top: 20px;
+    	width: 92%;
+    	padding-left: 4%;
+    	padding-right: 4%;
+    }
+       .container2 aside ul li:first-child{
+	background: url(../../images/course-1_01.jpg) no-repeat center 10px;
+}
+   .container2 aside ul li:nth-child(2){
+	background: url(../../images/course-1_03.jpg) no-repeat center 10px;
+}
+.container2 aside ul li:nth-child(3){
+	background: url(../../images/course-1_05.jpg) no-repeat center 10px;
+}
+.container2 aside ul li:nth-child(4){
+	background: url(../../images/course-1_07.jpg) no-repeat center 10px;
+}
+.container2 aside ul li:nth-child(5){
+	background: url(../../images/course-1_09.jpg) no-repeat center 10px;
+	border-bottom: 4px solid #fa9634;
+}
+.container2 aside ul li:nth-child(6){
+	background: url(../../images/course-1_11.jpg) no-repeat center 10px;
+}
+.container2 aside ul li:nth-child(7){
+	background: url(../../images/course-1_14.jpg) no-repeat center 10px;
+	border-bottom: 4px solid #fa9634;
+}
+.container2 aside ul li:nth-child(8){
+	background: url(../../images/course-1_15.jpg) no-repeat center 10px;
+}
+.container2 aside ul li:nth-child(9){
+	background: url(../../images/course-1_17.jpg) no-repeat center 10px;
+}
+.container2 aside ul li:first-child:hover{
+	background: url(../../images/course-1_02.jpg) no-repeat center 10px;
+	border-bottom: 4px solid #fa9634;
+}
+.container2 aside ul li:nth-child(2):hover{
+	background: url(../../images/course-1_04.jpg) no-repeat center 10px;
+	border-bottom: 4px solid #fa9634;
+}
+.container2 aside ul li:nth-child(3):hover{
+	background: url(../../images/course-1_06.jpg) no-repeat center 10px;
+	border-bottom: 4px solid #fa9634;
+}
+.container2 aside ul li:nth-child(4):hover{
+	background: url(../../images/course-1_08.jpg) no-repeat center 10px;
+	border-bottom: 4px solid #fa9634;
+}
+.container2 aside ul li:nth-child(5):hover{
+	background: url(../../images/course-1_10.jpg) no-repeat center 10px;
+	border-bottom: 4px solid #fa9634;
+}
+.container2 aside ul li:nth-child(6):hover{
+	background: url(../../images/course-1_12.jpg) no-repeat center 10px;
+	border-bottom: 4px solid #fa9634;
+}
+.container2 aside ul li:nth-child(7):hover{
+	background: url(../../images/course-1_14.jpg) no-repeat center 10px;
+	border-bottom: 4px solid #fa9634;
+}
+.container2 aside ul li:nth-child(8):hover{
+	background: url(../../images/course-1_16.jpg) no-repeat center 10px;
+	border-bottom: 4px solid #fa9634;
+}
+.container2 aside ul li:nth-child(9):hover{
+	background: url(../../images/course-1_18.jpg) no-repeat center 10px;
+	border-bottom: 4px solid #fa9634;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		
